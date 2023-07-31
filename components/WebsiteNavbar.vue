@@ -3,40 +3,42 @@
     <a class="website-name" href="#">Melaine Gérard</a>
     <ul>
       <li>
-        <a href="#">
+        <RouterLink to="#">
           Accueil
-        </a>
+        </RouterLink>
       </li>
       <li>
-        <a href="#">
+        <RouterLink to="#">
           Projets
-        </a>
+        </RouterLink>
       </li>
       <li>
-        <a href="#">
+        <RouterLink to="#">
           Expériences professionnelles
-        </a>
+        </RouterLink>
       </li>
       <li>
-        <a href="#">
+        <RouterLink to="#">
           Contact
-        </a>
+        </RouterLink>
       </li>
     </ul>
   </nav>
 </template>
 
 <style lang="scss" scoped>
+@import "assets/css/colors";
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #e7e7e7;
+    background: $background-secondary;
     padding: 0.25rem 1rem;
 
     ul {
       display: flex;
       list-style: none;
+      padding: 0;
 
       li {
         margin-left: 1rem;
@@ -45,10 +47,10 @@
           text-decoration: none;
           color: #000;
           transition: all 0.2s ease-in-out;
-          font-size: 1.2rem;
+          font-size: 1.1rem;
 
           &:hover {
-            color: #0053a7;
+            color: $color-hover;
           }
         }
       }
@@ -82,3 +84,5 @@
     }
   }
 </style>
+<script setup lang="ts">
+</script>
