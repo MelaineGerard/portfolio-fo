@@ -57,7 +57,7 @@
     }
 
     .website-name {
-      font-weight: bold;
+      font-weight: 600;
       font-size: 1.7rem;
       text-decoration: none;
       color: #000;
