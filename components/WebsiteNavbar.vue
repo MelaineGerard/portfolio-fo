@@ -45,7 +45,7 @@
 
         a {
           text-decoration: none;
-          color: #000;
+          color: $black;
           transition: all 0.2s ease-in-out;
           font-size: 1.1rem;
 
@@ -60,7 +60,7 @@
       font-weight: 600;
       font-size: 1.7rem;
       text-decoration: none;
-      color: #000;
+      color: $black;
     }
   }
 
