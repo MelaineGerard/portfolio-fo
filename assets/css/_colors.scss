@@ -6,3 +6,13 @@ $color-hover: #00308F;
 $color-text: #FFFFFF;
 
 $black: #000000;
+$gray: #646464;
+
+
+.bg-secondary {
+  background: $background-secondary;
+}
+
+.text-gray {
+  color: $gray;
+}

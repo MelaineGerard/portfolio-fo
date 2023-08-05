@@ -1,9 +1,9 @@
 <template>
   <nav>
-    <a class="website-name" href="#">Melaine Gérard</a>
+    <RouterLink class="website-name" to="/">Melaine Gérard</RouterLink>
     <ul>
       <li>
-        <RouterLink to="#">
+        <RouterLink to="/">
           Accueil
         </RouterLink>
       </li>

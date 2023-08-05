@@ -1,14 +1,11 @@
 <template>
-  <h1>Hello, World!</h1>
-
-  <WebsiteButton class="mr-1">
-    <FontAwesomeIcon class="mr-1" :icon="['fab', 'linkedin']"/>
-    LinkedIn
-  </WebsiteButton>
-  <WebsiteButton>
-    <FontAwesomeIcon class="mr-1" :icon="['fab', 'github']"/>
-    GitHub
-  </WebsiteButton>
+  <div class="px-8">
+    <WebsiteTopHomepage />
+    <WebsiteAboutHomepage />
+  </div>
 </template>
+
 <script setup lang="ts">
+import WebsiteTopHomepage from "~/components/homepage/WebsiteTopHomepage.vue";
+import WebsiteAboutHomepage from "~/components/homepage/WebsiteAboutHomepage.vue";
 </script>

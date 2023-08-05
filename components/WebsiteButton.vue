@@ -14,6 +14,7 @@
     border-radius: 0.25rem;
     transition: 0.2s all ease-in-out;
     text-align: center;
+    cursor: pointer;
 
     &:hover {
       background: $background-secondary;
