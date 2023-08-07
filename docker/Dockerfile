@@ -1,18 +1,10 @@
-FROM alpine:3.18
+FROM node:20
 LABEL maintainer="Melaine Gérard <pro@melaine-gerard.fr>"
 LABEL version="0.1"
 
 RUN mkdir -p /project
 
 WORKDIR /project
-
-RUN apk update && apk add --update --no-cache \
-tzdata \
-nano \
-neovim \
-nodejs-current \
-bash \
-npm
 
 COPY .output .
 

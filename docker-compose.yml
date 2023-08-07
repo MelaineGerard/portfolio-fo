@@ -6,7 +6,7 @@ services:
     build:
       context: ./
       dockerfile: ./docker/Dockerfile
-    image: portfolio-fo:latest
+    image: registry.melaine-gerard.fr/portfolio-fo:latest
     container_name: portfolio-fo
     tty: true
     labels:
