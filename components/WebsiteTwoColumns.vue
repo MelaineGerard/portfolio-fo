@@ -1,5 +1,5 @@
 <template>
-  <div class="grid border-top-gray mt-4">
+  <div class="grid border-top-gray mt-4 p-4">
     <h2>{{ title }}</h2>
     <div class="col-span-2">
      <slot />
