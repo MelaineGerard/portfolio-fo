@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:3.18
 LABEL maintainer="Melaine Gérard <pro@melaine-gerard.fr>"
 LABEL version="0.1"
 
@@ -10,7 +10,7 @@ RUN apk update && apk add --update --no-cache \
 tzdata \
 nano \
 neovim \
-nodejs \
+nodejs-current \
 bash \
 npm
 
