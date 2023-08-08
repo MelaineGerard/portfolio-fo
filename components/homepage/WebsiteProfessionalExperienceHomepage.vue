@@ -1,8 +1,8 @@
 <template>
-  <WebsiteTwoColumns title="Expériences professionelles" v-if="professionalExperiences.data.length !== 0">
+  <WebsiteTwoColumns title="Expériences professionelles" v-if="professionalExperiences?.data.length !== 0">
     <WebsiteTwoColumnsGrid>
       <WebsiteProfessionalExperienceCard
-          v-for="experience in professionalExperiences.data"
+          v-for="experience in professionalExperiences?.data"
           :key="experience.enterprise"
           :type="experience.type"
           :enterprise="experience.enterprise"

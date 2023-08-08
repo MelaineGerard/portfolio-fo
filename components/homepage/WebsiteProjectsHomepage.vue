@@ -1,8 +1,8 @@
 <template>
-  <WebsiteTwoColumns title="Projets" v-if="projects.data.length !== 0">
+  <WebsiteTwoColumns title="Projets" v-if="projects?.data.length !== 0">
     <WebsiteTwoColumnsGrid>
       <WebsiteProjectCard
-          v-for="project in projects.data"
+          v-for="project in projects?.data"
           :key="project.name"
           :name="project.name"
           :description="project.description"
