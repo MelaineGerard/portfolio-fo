@@ -17,6 +17,5 @@
 
 <script setup lang="ts" async>
 import { getProjects } from '~/services/ProjectService'
-// TODO: Remplacer cela par un call sur l'API qui récupère les données
 const projects = await getProjects()
 </script>
