@@ -13,13 +13,8 @@
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="#">
+        <NuxtLink to="/professionalExperience">
           Expériences professionnelles
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink to="#">
-          Contact
         </NuxtLink>
       </li>
     </ul>
