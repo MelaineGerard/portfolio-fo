@@ -3,24 +3,24 @@
     <RouterLink class="website-name" to="/">Melaine Gérard</RouterLink>
     <ul>
       <li>
-        <RouterLink to="/">
+        <NuxtLink to="/">
           Accueil
-        </RouterLink>
+        </NuxtLink>
       </li>
       <li>
-        <RouterLink to="#">
+        <NuxtLink to="/projects">
           Projets
-        </RouterLink>
+        </NuxtLink>
       </li>
       <li>
-        <RouterLink to="#">
+        <NuxtLink to="#">
           Expériences professionnelles
-        </RouterLink>
+        </NuxtLink>
       </li>
       <li>
-        <RouterLink to="#">
+        <NuxtLink to="#">
           Contact
-        </RouterLink>
+        </NuxtLink>
       </li>
     </ul>
   </nav>
