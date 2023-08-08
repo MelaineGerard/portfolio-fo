@@ -18,12 +18,6 @@
       <span class="text-gray">Développeur Web Full Stack junior basé à Rennes</span>
     </div>
     <div class="links">
-      <a href="https://github.com/MelaineGerard" target="_blank" class="mr-1">
-        <WebsiteButton>
-          <FontAwesomeIcon class="mr-1" :icon="['fab', 'github']"/>
-          GitHub
-        </WebsiteButton>
-      </a>
       <a href="https://www.linkedin.com/in/melaine-gerard/" target="_blank">
         <WebsiteButton class="mr-1">
           <FontAwesomeIcon class="mr-1" :icon="['fab', 'linkedin']"/>
@@ -109,3 +103,6 @@ h1 {
   }
 }
 </style>
+<script setup lang="ts">
+import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+</script>

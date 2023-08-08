@@ -37,6 +37,7 @@
   }
   .discover-button {
     background: $color-shadow;
+    color: $color-text;
     border: none;
     padding: 0.75rem 1rem;
     border-radius: 5px;
@@ -45,7 +46,6 @@
 
     &:hover {
       background: $color-hover;
-      color: $color-text;
     }
   }
 }
