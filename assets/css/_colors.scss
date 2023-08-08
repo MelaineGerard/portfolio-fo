@@ -1,0 +1,18 @@
+
+$background-primary: #F4F4F4;
+$background-secondary: #E3E3E3;
+$color-shadow: #6B9FE6;
+$color-hover: #00308F;
+$color-text: #FFFFFF;
+
+$black: #000000;
+$gray: #646464;
+
+
+.bg-secondary {
+  background: $background-secondary;
+}
+
+.text-gray {
+  color: $gray;
+}

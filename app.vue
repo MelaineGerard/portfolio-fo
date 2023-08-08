@@ -1,7 +1,9 @@
 <template>
-  <div>
+  <main>
     <WebsiteNavbar />
-    <NuxtPage />
+    <div class="content">
+      <NuxtPage />
+    </div>
     <WebsiteFooter />
-  </div>
+  </main>
 </template>
