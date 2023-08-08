@@ -9,7 +9,7 @@
       <div>
         <a href="https://github.com/MelaineGerard"  class="font-bold">
           MelaineGerard
-          <FontAwesomeIcon class="ml-1" :icon="['fas', 'arrow-right']"/>
+          <FontAwesomeIcon class="ml-1" :icon="['fas', 'external-link-alt']"/>
         </a>
       </div>
     </div>
@@ -18,7 +18,7 @@
       <div>
         <a href="mailto:pro@melaine-gerard.fr"  class="font-bold">
           pro@melaine-gerard.fr
-          <FontAwesomeIcon class="ml-1" :icon="['fas', 'arrow-right']"/>
+          <FontAwesomeIcon class="ml-1" :icon="['fas', 'external-link-alt']"/>
         </a>
       </div>
     </div>
@@ -66,4 +66,5 @@ a {
 }
 </style>
 <script setup lang="ts">
+import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 </script>
