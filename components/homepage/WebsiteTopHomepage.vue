@@ -1,29 +1,31 @@
 <template>
-  <WebsiteBanner
-      src="https://images.hdqwalls.com/download/moon-light-ride-4k-e3-2048x1152.jpg"
-      alt="Bannière de Melaine Gérard"
-      object-position="top"
-      class="filter-banner big-banner"
-  />
-  <div class="parent-block">
-    <WebsiteRoundedImage
-        src="https://files.melaine-gerard.fr/moi.png"
-        alt="Photo de Melaine Gérard"
-        width="12rem"
-        height="12rem"
-        class="bg-secondary overlap-banner"
+  <div>
+    <WebsiteBanner
+        src="https://images.hdqwalls.com/download/moon-light-ride-4k-e3-2048x1152.jpg"
+        alt="Bannière de Melaine Gérard"
+        object-position="top"
+        class="filter-banner big-banner"
     />
-    <div class="presentation">
-      <h1>Melaine Gérard</h1>
-      <span class="text-gray">Développeur Web Full Stack junior basé à Rennes</span>
-    </div>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/melaine-gerard/" target="_blank">
-        <WebsiteButton class="mr-1">
-          <FontAwesomeIcon class="mr-1" :icon="['fab', 'linkedin']"/>
-          LinkedIn
-        </WebsiteButton>
-      </a>
+    <div class="parent-block">
+      <WebsiteRoundedImage
+          src="https://files.melaine-gerard.fr/moi.png"
+          alt="Photo de Melaine Gérard"
+          width="12rem"
+          height="12rem"
+          class="bg-secondary overlap-banner"
+      />
+      <div class="presentation">
+        <h1>Melaine Gérard</h1>
+        <span class="text-gray">Développeur Web Full Stack junior basé à Rennes</span>
+      </div>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/melaine-gerard/" target="_blank">
+          <WebsiteButton class="mr-1">
+            <FontAwesomeIcon class="mr-1" :icon="['fab', 'linkedin']"/>
+            LinkedIn
+          </WebsiteButton>
+        </a>
+      </div>
     </div>
   </div>
 </template>
