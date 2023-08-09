@@ -19,12 +19,12 @@
         <span class="text-gray">Développeur Web Full Stack junior basé à Rennes</span>
       </div>
       <div class="links">
-        <a href="https://www.linkedin.com/in/melaine-gerard/" target="_blank">
-          <WebsiteButton class="mr-1">
-            <FontAwesomeIcon class="mr-1" :icon="['fab', 'linkedin']"/>
-            LinkedIn
-          </WebsiteButton>
-        </a>
+          <a href="https://www.linkedin.com/in/melaine-gerard/" target="_blank">
+            <WebsiteButton class="mr-1">
+              <FontAwesomeIcon class="mr-1" :icon="['fab', 'linkedin']"/>
+              LinkedIn
+            </WebsiteButton>
+          </a>
       </div>
     </div>
   </div>
@@ -102,6 +102,8 @@ h1 {
     align-items: center;
     margin-left: 0;
     gap: 0.5rem;
+    justify-content: center;
+    width: 100%;
   }
 }
 </style>
