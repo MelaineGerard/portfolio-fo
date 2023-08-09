@@ -47,6 +47,12 @@
         font-weight: 400;
         justify-self: flex-end;
       }
+
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+
+      }
     }
     .description {
       margin-bottom: 0.75rem;
