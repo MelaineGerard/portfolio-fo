@@ -9,6 +9,7 @@
                 :description="article.description"
                 :dateUpdated="article.date_updated"
                 :id="article.id"
+                :cover="article.cover"
             />
         </div>
     </div>
