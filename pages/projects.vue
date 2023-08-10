@@ -1,5 +1,6 @@
 <template>
   <div class="px-8">
+    <h1 class="text-center">Liste des projets</h1>
     <div class="grid">
       <WebsiteProjectCard
           v-for="project in projects?.data"
@@ -19,6 +20,9 @@ const { data: projects } = useFetch('https://portfolio-bo.melaine-gerard.fr/item
 </script>
 
 <style lang="scss" scoped>
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
