@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="top-bar">
-      <RouterLink class="website-name" to="/">Melaine Gérard</RouterLink>
+      <NuxtLink class="website-name" to="/">Melaine Gérard</NuxtLink>
       <button type="button" @click="toggleNavbar">
         <FontAwesomeIcon :icon="['fas', 'bars']" id="icon_bars" />
         <FontAwesomeIcon :icon="['fas', 'times']" class="hidden" id="icon_times" />

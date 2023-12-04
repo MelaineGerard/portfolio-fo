@@ -5,12 +5,12 @@
       {{ description }}
     </div>
     <div class="url">
-      <a :href="url" target="_blank">
+      <NuxtLink :href="url">
         <button class="discover-button">
-          Découvrir
-          <font-awesome-icon :icon="['fas', 'external-link-alt']"/>
+          En savoir plus
+          <font-awesome-icon :icon="['fas', 'angle-right']"/>
         </button>
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>

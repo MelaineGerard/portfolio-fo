@@ -1,12 +1,12 @@
 <template>
-  <WebsiteTwoColumns title="Projets" v-if="projects?.data.length !== 0">
+  <WebsiteTwoColumns title="Projets" v-if="projects !== null && projects.data.length !== 0">
     <WebsiteTwoColumnsGrid>
       <WebsiteProjectCard
           v-for="project in projects?.data"
-          :key="project.name"
+          :key="project.id"
           :name="project.name"
           :description="project.description"
-          :url="project.link"
+          :url="'/projects/' + project.id"
       />
     </WebsiteTwoColumnsGrid>
   </WebsiteTwoColumns>
