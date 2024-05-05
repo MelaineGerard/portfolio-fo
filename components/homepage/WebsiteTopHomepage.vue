@@ -8,7 +8,7 @@
     />
     <div class="parent-block">
       <WebsiteRoundedImage
-          src="https://files.melaine-gerard.fr/moi.png"
+          src="https://minio-console.melaine-gerard.fr/api/v1/buckets/files/objects/download?preview=true&prefix=bW9pLnBuZw==&version_id=null"
           alt="Photo de Melaine Gérard"
           width="12rem"
           height="12rem"
