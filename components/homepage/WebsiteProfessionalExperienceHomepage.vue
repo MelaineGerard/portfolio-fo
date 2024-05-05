@@ -19,5 +19,5 @@
 </style>
 
 <script setup lang="ts" async>
-const { data: professionalExperiences } = useFetch('https://portfolio-bo.melaine-gerard.fr/items/ProfessionalExperience?limit=4&sort=-date_created');
+const { data: professionalExperiences } = useFetch('https://portfolio-backoffice.melaine-gerard.fr/api/professional-experience/?sort=desc&limit=4');
 </script>

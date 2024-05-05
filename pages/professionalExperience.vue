@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
 
-const { data: professionalExperiences } = useFetch('https://portfolio-bo.melaine-gerard.fr/items/ProfessionalExperience?limit=-1');
+const { data: professionalExperiences } = useFetch('https://portfolio-backoffice.melaine-gerard.fr/api/professional-experience/');
 </script>
 
 <style lang="scss" scoped>
