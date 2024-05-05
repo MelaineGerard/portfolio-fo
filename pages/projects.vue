@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import WebsiteProjectCard from "~/components/WebsiteProjectCard.vue";
 
-const { data: projects } = useFetch('https://portfolio-bo.melaine-gerard.fr/items/Project?limit=-1');
+const { data: projects } = useFetch('https://portfolio-backoffice.melaine-gerard.fr/api/project/?sort=asc');
 </script>
 
 <style lang="scss" scoped>

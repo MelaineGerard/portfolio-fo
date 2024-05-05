@@ -16,5 +16,5 @@
 </style>
 
 <script setup lang="ts" async>
-const { data: projects } = useFetch('https://portfolio-bo.melaine-gerard.fr/items/Project?limit=4&sort=-date_created');
+const { data: projects } = useFetch('https://portfolio-backoffice.melaine-gerard.fr/api/project/?sort=desc&limit=4');
 </script>
