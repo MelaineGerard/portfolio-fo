@@ -4,9 +4,10 @@
 
 <style lang="scss" scoped>
   img {
-    border-radius: 50%;
-    width: v-bind(width);
+    border-radius: 20px;
+    width: 100%;
     height: v-bind(height);
+    max-width: v-bind(width);
   }
 </style>
 
