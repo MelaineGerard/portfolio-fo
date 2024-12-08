@@ -1,5 +1,6 @@
 <template>
   <div class="px-8">
+    <h1 class="text-center">Liste des expériences professionnelles</h1>
     <div class="grid">
       <WebsiteProfessionalExperienceCard
           v-for="experience in professionalExperiences?.data"
@@ -21,6 +22,10 @@ const { data: professionalExperiences } = useFetch('https://portfolio-backoffice
 </script>
 
 <style lang="scss" scoped>
+
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
